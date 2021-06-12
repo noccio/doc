@@ -15,7 +15,7 @@ This page will help you diagnose the issue, get back access, and if needed repai
 
 #### If you are self-hosted at home: fix ports forwarding
 
-Check that you are getting access to the server by using its public IP (you can find at [https://ip.yunohost.org](https://ip.yunohost.org). If this does not work:
+Check that you are getting access to the server by using its public IP (you can find at [https://ip.yunohost.org](https://ip.yunohost.org)). If this does not work:
    - Make sure you have [set up forwarding](/isp_box_config)
    - Some ISP routers do not support *hairpinning*, which prevents you from reaching your server by its domain name from within your local network. If so, you can use a cellular connection, or tweak your `hosts` file on your computer to make it bind your domain name to the local IP address instead of the public one.
 
