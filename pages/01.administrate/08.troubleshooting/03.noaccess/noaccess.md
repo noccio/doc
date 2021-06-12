@@ -21,7 +21,7 @@ Check that you are getting access to the server by using its public IP (you can 
 
 #### Configure DNS records
 
-! This is not a problem if you are using a domain from `nohost.me`, `noho.st` or `ynh.fr`)
+! This is not a problem if you are using a domain from `nohost.me`, `noho.st` or `ynh.fr`
 
 You have to configure your [DNS records](/dns_config) (at least `A` records, and `AAAA` if you have an IPv6 connection). 
 
