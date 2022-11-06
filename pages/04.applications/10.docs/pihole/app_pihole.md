@@ -13,15 +13,15 @@ routes:
 
 ### Index
 
-- [Using Pi-Hole as a DHCP server](#using-pi-hole-as-a-dhcp-server)
-  - [Configure Pi-Hole](#configure-pi-hole)
+- [Using Pi-hole as a DHCP server](#using-pi-hole-as-a-dhcp-server)
+  - [Configure Pi-hole](#configure-pi-hole)
   - [Configure my router](#configure-my-router)
   - [Restore Network](#restore-network)
 - [Useful links](#useful-links)
 
-Pi-hole is a network-level ad blocker that acts as a DNS layer and possibly a DHCP3 server for use on a private network. It is designed to be installed on embedded devices with network capabilities, such as the Raspberry Pi, but can be used on other machines running GNU/Linux or in virtualised environments.
+*Pi-hole* is a network-level ad blocker that acts as a DNS layer and possibly a DHCP3 server for use on a private network. It is designed to be installed on embedded devices with network capabilities, such as the Raspberry Pi, but can be used on other machines running GNU/Linux or in virtualised environments.
 
-## Using Pi-Hole as a DHCP server
+## Using Pi-hole as a DHCP server
 
 > **Warning, you should be aware that touching your DHCP could break your network.
 In case your server is inaccessible, you will lose your dns resolution and IP address.
@@ -29,7 +29,7 @@ Thus, you would lose any connection to the internet and even the connection to y
 
 > If you encounter this kind of problem, please read the section "How to restore my network".
 
-### Configure Pi-Hole
+### Configure Pi-hole
 
 There are 2 ways to configure Pi-hole to be used as your DHCP server.
 - Either you can choose to use it when you install the application.
@@ -58,17 +58,20 @@ Don't panic. We'll get through this.
 
 Use your favorite device on your desktop computer.
 And first, get your network interface (usually `eth0`).
+
 ```bash
 sudo ifconfig
 ```
 
 Then change your IP to a static one.
+
 ```bash
 sudo ifconfig eth0 192.168.1.100
 ```
 
 Now you can connect to your router and reboot its DHCP server to use it again.
 You can now remove your static IP and get a dynamic IP again.
+
 ```bash
 sudo ifconfig eth0 0.0.0 && sudo dhclient eth0
 ```
