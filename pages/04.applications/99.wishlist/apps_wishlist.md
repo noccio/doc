@@ -146,6 +146,7 @@ You can [contribute to this list by adding something you'd like to be packaged](
 | Kenoma | Pleroma frontend | [Upstream](https://git.pleroma.social/lambadalambda/kenoma) | |
 | Keyoxide | Keyoxide is a privacy-friendly tool to create and verify decentralized online identities. | [Upstream](https://codeberg.org/keyoxide) | |
 | [Kill the newsletter](https://kill-the-newsletter.com/) | Convert email newsletters to RSS feeds | [Upstream](https://github.com/leafac/kill-the-newsletter.com) | |
+| [Klaxon](https://newsklaxon.org) | Easily create alerts for changes on the web  | [Upstream](https://github.com/themarshallproject/klaxon) |  |
 | [Known](https://withknown.com) |  | [Upstream](https://github.com/idno/known) |  |
 | [Koel](https://koel.phanan.net) |  | [Upstream](https://github.com/phanan/koel) |  |
 | [Koha](https://koha-community.org/) | The world's first free and open source library system | [Upstream](https://git.koha-community.org/Koha-community/Koha) | |
@@ -281,6 +282,7 @@ You can [contribute to this list by adding something you'd like to be packaged](
 | [sonerezh](https://www.sonerezh.bzh) | Stream music from everywhere |  | [Package Draft](https://github.com/YunoHost-Apps/sonerezh_ynh) |
 | [SparkleShare (Dazzle)](https://www.sparkleshare.org/) | SparkleShare host  | [Upstream](https://github.com/hbons/Dazzle) |  |
 | sphinx |  | [Upstream](https://github.com/sphinx-doc/sphinx) | [Package Draft](https://github.com/YunoHost-Apps/sphinx_ynh) |
+| Spreed standalone signaling server (Nextcloud Talk HPB) |  | [Upstream](https://github.com/strukturag/nextcloud-spreed-signaling) |  | 
 | [Stackedit](https://stackedit.io) |  | [Upstream](https://github.com/benweet/stackedit) |  |
 | [Storj](https://www.storj.io/node) |  | [Upstream](https://github.com/storj/storj) |  |
 | [Strapi](https://strapi.io) | Open source Node.js Headless CMS to easily build customisable APIs | [Upstream](https://github.com/strapi/strapi) |  |
